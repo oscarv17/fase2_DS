@@ -17,10 +17,10 @@ authURL <- "https://api.twitter.com/oauth/authorize"
 options(httr_oauth_cache=T)
 
 # Cargar las credenciales obtenidas del paso anterior
-consumer_key <- "RWiyhJrHzWHpIE6G3yiCEV6MQ"
-consumer_secret <-"HXpU4rNxyKXvzQQfpvkdJ5xlwVd2hb8L95Gn5wS7cQ37DfLNyC"
-access_token <-"139230277-Y7kRwzvl8n09b71wRdN77gIdcMSfJOy32jV3g0IL"
-access_secret <-"AzCFSB80WLu9WkZgYiTW80vZOcR1NIpkyKgfQFh9r5KoC"
+consumer_key <- "xxxx"
+consumer_secret <-"xxxx"
+access_token <-"xxxx-xxxxx"
+access_secret <-"xxxxx"
 
 # Ejecutar la autenticaci?n de TwitteR
 setup_twitter_oauth(consumer_key, consumer_secret, access_token, access_secret)
